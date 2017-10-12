@@ -5,6 +5,7 @@ body{
   align-items: center;
   margin-top: 150px;
   background: linear-gradient(to right, rgba(255,0,0,0), rgba(10,0,0,1));
+  font-family: Courier;
 }
 h1{
   font-family: Courier;
@@ -23,10 +24,12 @@ h1{
   width: inherit;
   display: flex;
   flex-direction:column;
+  font-family:inherit;
 }
 
 input{
   margin-top: 10px;
+  font-family:inherit;
 }
 
 .addOption{
@@ -42,7 +45,17 @@ button{
   background-size: cover;
   padding: 15px 32px;
   border:  2px solid grey;
-  font-family: Courier;
   font-weight: bolder;
   font-size: medium;
+  font-family:inherit;
+}
+
+.resultSection{
+  height: 200px;
+  display flex;
+  justify-content: center;
+  align-items: center;
+  font-family:inherit;
+  font-size: 34px;
+
 }
